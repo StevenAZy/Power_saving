@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="应用名"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="次数"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="时间"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bytes"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="流量"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+</LinearLayout>
