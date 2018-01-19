@@ -1,17 +1,19 @@
 package com.cczu.lcy.power_saving;
 
+import android.app.usage.UsageStats;
+
 /**
  * Created by 13156 on 2018/1/14.
  */
 
 public class Info {
-    private String name;
+    private UsageStats name;
     private String number;
     private String times;
     private String bytes;
 
 
-    public void setName(String name) {
+    public void setName(UsageStats name) {
         this.name = name;
     }
 
@@ -27,19 +29,23 @@ public class Info {
         this.bytes = bytes;
     }
 
-    public String getName() {
+    public UsageStats getName(String s) {
         return name;
     }
 
-    public String getNumber() {
+    public String getNumber(long useDurationWithL) {
         return number;
     }
 
-    public String getTimes() {
+    public String getTimes(long useTimeWithL) {
         return times;
     }
 
     public String getBytes() {
         return bytes;
+    }
+
+    public UsageStats getName() {
+        return name;
     }
 }
